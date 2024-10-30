@@ -104,3 +104,54 @@
   text-align: center;
   padding-top: 50px;
 }
+
+
+@media only screen and (max-width: 767px) {
+  .mealInfo img {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    border-radius: 11px;
+  }
+  
+  .mealInfo {
+    width: 100%; 
+    max-width: 90%; 
+    height: auto; 
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 181, 42);
+    padding: 16px; 
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .mealInfo {
+      gap: 16px; 
+    }
+  
+    .mealInfo img {
+      width: 100%; 
+      height: auto; 
+    }
+  
+    .mealInfo button {
+      font-size: 16px; 
+      padding: 8px;
+    }
+  
+    .mealInfo .info {
+      margin-top: 0; 
+    }
+  
+    .msg, .head {
+      padding-top: 20px; 
+      text-align: center;
+    }
+  }
+  
+}
+
